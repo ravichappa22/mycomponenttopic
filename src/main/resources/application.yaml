@@ -1,0 +1,10 @@
+my_kafka_component_topic: mycomponenttopic
+spring:
+  application:
+    name: kafkacomponent
+  kafka:
+    bootstrap-servers:
+      - localhost:9092
+    client-id: kafkacomponent
+server:
+  port: 8082
